@@ -16,7 +16,7 @@ public class BookListImplTest {
 	public void testGetAllBooksFromStock() {
 		List<Book> booksFromStock = bookListImpl.getAllBooksFromStock();
 		for (Book book : booksFromStock) {
-			System.out.print(book.getTitle() + ", adsdsada");
+			System.out.print(book.getTitle() + ", ");
 			System.out.print(book.getAuthor() + ", ");
 			System.out.print(book.getPrice() + ", ");
 			System.out.print(book.getOnStock());
