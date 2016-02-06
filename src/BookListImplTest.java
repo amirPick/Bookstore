@@ -56,8 +56,9 @@ public class BookListImplTest {
 
 		Book[] books = bookListImpl.foundBooks(searchString);
 
+		System.out.println("Found books:");
+
 		for (Book book : books) {
-			System.out.println("Found book:");
 			System.out.print("Title= " + book.getTitle() + ", Author="
 					+ book.getAuthor() + ", Price=" + book.getPrice());
 			System.out.println("");
